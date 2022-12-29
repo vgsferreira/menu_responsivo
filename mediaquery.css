@@ -1,0 +1,48 @@
+@media screen and (max-width: 1270px) {
+    #logo{
+        font-size: medium;        
+    }
+    nav ul li{
+        font-size: smaller;    
+    }
+    #pre-order span{
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #logo{
+        font-size: smaller;
+        font-weight: bold;
+        text-align: center;
+    }
+    #pre-order span{
+        font-size: smaller;    
+    }
+    #header-content{
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #header-content, nav ul{
+        flex-direction: column;
+    }
+    header{
+        height: 300px;
+    }
+    nav ul li{
+        padding: 5px;
+    }
+    nav ul{
+        margin: 10px 0;
+    }
+    #logo, #pre-order{
+        padding: 10px;
+    }
+    #pre-order{
+        margin-top: 20px;
+        width: 150px;
+    }
+     
+}
